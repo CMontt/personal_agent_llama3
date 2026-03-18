@@ -57,3 +57,8 @@ ALLOWED_PROGRAMS = {
     "vscode": "code", 
     "code": "code"
 }
+
+#TOOL - Send message whatsapp
+WPP_USER_DATA_DIR = BASE_DIR / "firefox_whatsapp_profile"
+WPP_CONTEXT_HEADLESS = True 
+WPP_URL = "https://web.whatsapp.com/"

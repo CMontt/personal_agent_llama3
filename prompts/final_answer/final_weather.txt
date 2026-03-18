@@ -16,4 +16,4 @@ Instructions:
   - Probabilidade de chuva: <value> (fun, short comment)
 - Do **not add extra blank lines** between the lines.
 - Keep the tone **friendly and light**, using small, fun comments for each line.
-- If any information is missing, mention politely that it is unavailable.
+- Add emojis in every line!

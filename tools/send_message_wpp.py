@@ -1,14 +1,14 @@
 import time
 from agent.runner import load_contacts
 from playwright.sync_api import sync_playwright
-from config.settings import CONTACTS_WPP_PATH
+from config.settings import CONTACTS_WPP_PATH, WPP_USER_DATA_DIR, WPP_CONTEXT_HEADLESS, WPP_URL
 
 CONTEXT_PLAYWRIGHT = sync_playwright().start().firefox.launch_persistent_context(
-                user_data_dir="./firefox_whatsapp_profile",
-                headless=True
+                user_data_dir=WPP_USER_DATA_DIR,
+                headless=WPP_CONTEXT_HEADLESS
             )
 PAGE_WPP = CONTEXT_PLAYWRIGHT.pages[0]
-PAGE_WPP.goto("https://web.whatsapp.com/")
+PAGE_WPP.goto(WPP_URL)
 
 CONTACTS = load_contacts(CONTACTS_WPP_PATH)
 

@@ -1,10 +1,10 @@
 import json
 from pathlib import Path
     
-def load_prompts(prompt_dict: Path) -> dict:
+def load_prompts(prompt_dir: Path) -> dict:
     prompts = {}
 
-    for file in prompt_dict.glob("*.txt"):
+    for file in prompt_dir.glob("*.txt"):
         prompts[file.stem] = file.read_text(encoding="utf-8")
 
     return prompts
