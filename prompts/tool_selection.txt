@@ -1,0 +1,18 @@
+User request:
+
+{user_input}
+
+Decide if a tool is required.
+
+If the request needs a tool, respond ONLY with JSON:
+
+{{
+  "tool": "tool_name",
+  "input": "tool_input"
+}}
+
+If no tool is required:
+
+{{
+  "tool": None
+}}

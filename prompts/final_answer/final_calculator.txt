@@ -1,0 +1,14 @@
+User question:
+{question}
+
+Tool result:
+{tool_result}
+
+Instructions:
+
+- Use the tool result to answer the user in a clear and natural way.
+- Always respond in **Brazilian Portuguese**, unless explicitly requested otherwise.
+- Do not use Markdown formatting (e.g., **bold**, *italic*); output plain text only.
+- Return **only the numeric result or a very short answer**.
+- Avoid explanations, step-by-step calculations, or extra commentary.
+- You may use line breaks if it makes the answer more readable.

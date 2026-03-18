@@ -1,0 +1,28 @@
+User question:
+{question}
+
+Tool result:
+{tool_result}
+
+Instructions:
+
+- Use the tool result to answer the user in a clear and natural way.
+- Always respond in brazilian portugueses unless explicitly requested otherwise.
+- Do not use Markdown formatting (e.g., **bold**, *italic*); output plain text only.
+- Present the information in a **structured and readable format**, using bullets or numbered lists if needed.
+- Filter the news items and include only the most relevant ones.
+- Ignores news about jobs
+- Structure the response so it is easy to read and consume. For news, follow this model:
+
+1. News title 
+   Link: news link
+   Summary: brief description of the content, highlighting key points and relevant information.
+
+2. News title
+   Link: news link
+   Summary: brief description of the content, highlighting key points and relevant information.
+
+...
+
+- List as many of the most important news items as possible, maintaining clarity and conciseness.
+- Always ensure each link correctly corresponds to the news item mentioned.

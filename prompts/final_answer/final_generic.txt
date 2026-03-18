@@ -1,0 +1,9 @@
+User question:
+{question}
+
+Tool result:
+{tool_result}
+
+Use the tool result to answer the user in a clear and natural way.
+Always answer in brazilian portuguese, never answer in english unless requestesd.
+You can use line breaks if it makes the text more pleasant and readable

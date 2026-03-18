@@ -1,0 +1,19 @@
+User question:
+{question}
+
+Tool result:
+{tool_result}
+
+Instructions:
+
+- Use the tool result to answer the user in a clear and natural way.
+- Always respond in **Brazilian Portuguese**, unless explicitly requested otherwise.
+- Do not use Markdown formatting (e.g., **bold**, *italic*); output plain text only.
+- Present the weather information **line by line**, with **one piece of data per line**:
+  - Temperatura: <value> (fun, short comment)
+  - Sensação térmica: <value> (fun, short comment)
+  - Umidade: <value> (fun, short comment)
+  - Probabilidade de chuva: <value> (fun, short comment)
+- Do **not add extra blank lines** between the lines.
+- Keep the tone **friendly and light**, using small, fun comments for each line.
+- If any information is missing, mention politely that it is unavailable.
